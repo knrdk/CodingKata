@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -r esm"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/knrdk/CodingKata#readme",
   "devDependencies": {
+    "esm": "^3.0.82",
     "mocha": "^5.2.0"
   }
 }

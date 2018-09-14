@@ -1,5 +1,5 @@
-var assert = require('assert');
-var businessRules =  require('../business-rules.js');
+import assert from 'assert';
+import businessRules from '../business-rules';
 
 describe('Array', function() {
   describe('#indexOf()', function() {
