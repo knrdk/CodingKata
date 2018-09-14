@@ -38,6 +38,50 @@ describe('RomanNumeralsConverter', function () {
     it('should return \'X\' for 10', function () {
       ValidateCase(10, 'X');
     });
+
+    it('should return \'XX\' for 20', function () {
+      ValidateCase(20, 'XX');
+    });
+
+    it('should return \'XXIV\' for 24', function () {
+      ValidateCase(24, 'XXIV');
+    });
+
+    it('should return \'XCVII\' for 97', function () {
+      ValidateCase(97, 'XCVII');
+    });
+
+    it('should return \'CDXXXVI\' for 436', function () {
+      ValidateCase(436, 'CDXXXVI');
+    });
+
+    it('should return \'CDXXXVI\' for 436', function () {
+      ValidateCase(436, 'CDXXXVI');
+    });
+
+    it('should return \'CMXCIX\' for 999', function () {
+      ValidateCase(999, 'CMXCIX');
+    });
+
+    it('should return \'M\' for 1000', function () {
+      ValidateCase(1000, 'M');
+    });
+
+    it('should return \'MMM\' for 3000', function () {
+      ValidateCase(3000, 'MMM');
+    });
+
+    it('should return \'MMMVII\' for 3007', function () {
+      ValidateCase(3007, 'MMMVII');
+    });
+
+    it('should return \'TOO_BIG\' for 4000', function () {
+      ValidateCase(4000, 'TOO_BIG');
+    });
+
+    it('should return \'TOO_BIG\' for 8745', function () {
+      ValidateCase(8745, 'TOO_BIG');
+    });
   });
 });
 
