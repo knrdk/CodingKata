@@ -1,0 +1,23 @@
+{
+  "name": "business-rules-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/knrdk/CodingKata.git"
+  },
+  "author": "Konrad Kopciuch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knrdk/CodingKata/issues"
+  },
+  "homepage": "https://github.com/knrdk/CodingKata#readme",
+  "devDependencies": {
+    "esm": "^3.0.82",
+    "mocha": "^5.2.0"
+  }
+}
